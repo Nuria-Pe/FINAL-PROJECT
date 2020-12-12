@@ -1,0 +1,14 @@
+client_id 45844a803da249adae64a637787bfd7e
+client_secret dc6e854038474d0ab8ed4faacc9d3080
+redirect_uri https%3A%2F%2Fapi-university.com%2F
+playlist-read-private
+
+
+45844a803da249adae64a637787bfd7e:dc6e854038474d0ab8ed4faacc9d3080
+
+
+https://accounts.spotify.com/authorize?client_id=45844a803da249adae64a637787bfd7e&scope=playlist-read-private
+&response_type=code&redirect_uri=https%3A%2F%2Fapi-university.com%2F
+
+curl -H "Authorization: Basic f45844a803da249adae64a637787bfd7e:dc6e854038474d0ab8ed4faacc9d3080" -d grant_type=authorization_code -d code=AQAvO94wlAEVcWQ-fqgWsXyU8jhxFCV3-DaScHfx8aDTLT3mgvCAVyYziK0qxyjPq_fXSZainrYzRpAc0K076K2e5LnWOFljI-hzrZIhNHH1PszgJAemBqsogZ3Ft2f126icw3xv2RyFrLHYPjrgsdvpRHs4TcrEhmDE8ZrOJRgIVyxK8wxgcs75kp3iDcDUjY8jGBoM -d redirect_uri=https%3A%2F%2Fapi-university.com%2F 
+https://accounts.spotify.com/api/token
