@@ -64,3 +64,6 @@ def genero_canciones(genero:str):
     pop = canciones[canciones.genre == genero]
     return (pop)
 
+#def artistas(pop):
+    #fig = sns.countplot(x=pop.artist)
+    #st.pyplot(fig)
